@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1400" role="img" aria-labelledby="title desc">
+  <title id="title">DazyHub capybara logo</title>
+  <desc id="desc">A friendly cartoon capybara wearing black glasses while using a laptop, with DazyHub integrated into the logo.</desc>
+  <defs>
+    <linearGradient id="badgeGradient" x1="130" y1="118" x2="1260" y2="1282" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f8dd8a"/>
+      <stop offset=".46" stop-color="#f4a65d"/>
+      <stop offset="1" stop-color="#5eb7b7"/>
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="423" y1="790" x2="977" y2="1032" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#26435d"/>
+      <stop offset=".57" stop-color="#152839"/>
+      <stop offset="1" stop-color="#0f1f2f"/>
+    </linearGradient>
+    <linearGradient id="furGradient" x1="406" y1="309" x2="1024" y2="898" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c8955c"/>
+      <stop offset=".5" stop-color="#ad7243"/>
+      <stop offset="1" stop-color="#8b5938"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="28" stdDeviation="22" flood-color="#27313a" flood-opacity=".22"/>
+    </filter>
+    <style>
+      .outline {
+        stroke: #382415;
+        stroke-width: 22;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .thin-outline {
+        stroke: #382415;
+        stroke-width: 14;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+      .soft-line {
+        stroke: #6b3e22;
+        stroke-width: 12;
+        stroke-linecap: round;
+        fill: none;
+        opacity: .42;
+      }
+      .wordmark {
+        font-family: "Comic Sans MS", "Marker Felt", "Avenir Next", "Nunito Sans", "Inter", "Arial Rounded MT Bold", Arial, sans-serif;
+        font-weight: 900;
+        letter-spacing: 0;
+      }
+    </style>
+  </defs>
+
+
+  <g transform="translate(0 18)" filter="url(#softShadow)">
+    <path d="M518 383c-12-72 31-125 88-125 39 0 69 23 87 58-61 14-119 37-175 67Z" fill="#a86a3c" class="outline"/>
+    <path d="M838 365c25-75 91-101 144-65 41 28 50 86 21 139-49-42-103-66-165-74Z" fill="#a86a3c" class="outline"/>
+    <path d="M442 641c-7-163 96-301 264-314 126-10 245 51 302 158 61 114 37 264-42 354-69 78-169 115-281 107-137-10-235-95-243-305Z" fill="url(#furGradient)" class="outline"/>
+    <path d="M602 648c5 61 50 102 110 102 72 0 120-52 112-125-5-51-42-89-97-96-75-9-131 45-125 119Z" fill="#bd8051" opacity=".55"/>
+    <path d="M676 590c31-24 82-20 108 11" class="soft-line"/>
+
+    <g>
+      <circle cx="594" cy="538" r="86" fill="#fff6db" fill-opacity=".18" stroke="#171311" stroke-width="18"/>
+      <circle cx="796" cy="538" r="86" fill="#fff6db" fill-opacity=".18" stroke="#171311" stroke-width="18"/>
+      <path d="M680 538c21-15 42-15 64 0" fill="none" stroke="#171311" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M508 528c-28-9-52-8-76 4" fill="none" stroke="#171311" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M882 532c32-11 58-8 82 10" fill="none" stroke="#171311" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M551 494c29-19 65-23 103-10" fill="none" stroke="#fff8e7" stroke-width="8" stroke-linecap="round" opacity=".38"/>
+      <path d="M757 494c29-17 65-20 98-7" fill="none" stroke="#fff8e7" stroke-width="8" stroke-linecap="round" opacity=".38"/>
+      <circle cx="588" cy="542" r="19" fill="#1f1712"/>
+      <circle cx="790" cy="542" r="19" fill="#1f1712"/>
+      <circle cx="580" cy="532" r="6" fill="#fff8e7"/>
+      <circle cx="782" cy="532" r="6" fill="#fff8e7"/>
+    </g>
+
+    <ellipse cx="692" cy="640" rx="96" ry="70" fill="#d6a06b" class="thin-outline"/>
+    <path d="M651 624c22-16 61-18 85-1 13 10 9 33-9 42-24 11-55 11-78-1-17-9-22-29 2-40Z" fill="#51301f"/>
+    <path d="M635 712c44 36 101 37 147 1" fill="none" class="thin-outline"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <path d="M387 762h626c45 0 82 37 82 82v276H305V844c0-45 37-82 82-82Z" fill="#17283a" class="outline"/>
+    <path d="M421 810h558c24 0 43 19 43 43v206H378V853c0-24 19-43 43-43Z" fill="url(#screenGradient)"/>
+    <path d="M403 1130h594l76 96H327l76-96Z" fill="#263b4e" class="outline"/>
+    <path d="M487 1196h426" stroke="#4c657c" stroke-width="18" stroke-linecap="round"/>
+    <path d="M451 874h106" stroke="#6bd7cc" stroke-width="22" stroke-linecap="round" opacity=".92"/>
+    <path d="M452 1000h147" stroke="#ff9b69" stroke-width="22" stroke-linecap="round" opacity=".92"/>
+    <path d="M891 852c50 19 87 55 107 107" fill="none" stroke="#f8d679" stroke-width="14" stroke-linecap="round" opacity=".86"/>
+    <path d="M934 1009c33-18 60-48 77-91" fill="none" stroke="#6bd7cc" stroke-width="14" stroke-linecap="round" opacity=".86"/>
+    <circle cx="870" cy="866" r="14" fill="#ff9b69"/>
+    <text x="704" y="960" class="wordmark" text-anchor="middle" font-size="112" fill="none" stroke="#372416" stroke-width="8" stroke-linejoin="round" opacity=".5" rotate="-3 2 -2 3 -1 2 -3">DazyHub</text>
+    <text x="704" y="960" class="wordmark" text-anchor="middle" font-size="112" fill="#fff6dd" rotate="-3 2 -2 3 -1 2 -3">DazyHub</text>
+  </g>
+
+  <g transform="translate(0 18)">
+    <path d="M354 869c-57 12-98 48-115 97-17 51 5 104 51 123 51 21 109-6 121-57 7-31-7-61-35-78 15-18 35-30 60-36" fill="#a66a3d" class="outline"/>
+    <path d="M1046 869c57 12 98 48 115 97 17 51-5 104-51 123-51 21-109-6-121-57-7-31 7-61 35-78-15-18-35-30-60-36" fill="#a66a3d" class="outline"/>
+    <path d="M309 1020c24 17 51 16 78-2" fill="none" class="thin-outline"/>
+    <path d="M1091 1020c-24 17-51 16-78-2" fill="none" class="thin-outline"/>
+    <path d="M371 914c20-12 42-18 65-20" fill="none" class="thin-outline"/>
+    <path d="M1029 914c-20-12-42-18-65-20" fill="none" class="thin-outline"/>
+  </g>
+</svg>

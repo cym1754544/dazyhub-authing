@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <radialGradient id="circleFill" cx="50%" cy="43%" r="58%">
+      <stop offset="0%" stop-color="#FFF4D6"/>
+      <stop offset="100%" stop-color="#FFE0A2"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="180" y1="120" x2="850" y2="870" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFD275"/>
+      <stop offset="100%" stop-color="#F4A33A"/>
+    </linearGradient>
+    <linearGradient id="bear" x1="360" y1="220" x2="690" y2="820" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#B9773A"/>
+      <stop offset="100%" stop-color="#8E5528"/>
+    </linearGradient>
+    <linearGradient id="book" x1="320" y1="530" x2="710" y2="835" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E7B81"/>
+      <stop offset="100%" stop-color="#0D4F5F"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#4A2A16" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <!-- transparent background -->
+  <circle cx="512" cy="512" r="410" fill="url(#circleFill)" stroke="url(#ring)" stroke-width="38"/>
+
+  <g filter="url(#softShadow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ears -->
+    <circle cx="390" cy="285" r="67" fill="url(#bear)" stroke="#3A2112" stroke-width="18"/>
+    <circle cx="636" cy="285" r="67" fill="url(#bear)" stroke="#3A2112" stroke-width="18"/>
+    <circle cx="390" cy="292" r="43" fill="#B9793E" opacity="0.9"/>
+    <circle cx="636" cy="292" r="43" fill="#B9793E" opacity="0.9"/>
+
+    <!-- body and head -->
+    <ellipse cx="512" cy="618" rx="245" ry="305" fill="#7B451F" stroke="#3A2112" stroke-width="20"/>
+    <circle cx="512" cy="448" r="225" fill="url(#bear)" stroke="#3A2112" stroke-width="20"/>
+
+    <!-- glasses -->
+    <circle cx="426" cy="433" r="61" fill="#D1AA84" fill-opacity="0.72" stroke="#11140F" stroke-width="14"/>
+    <circle cx="599" cy="433" r="61" fill="#D1AA84" fill-opacity="0.72" stroke="#11140F" stroke-width="14"/>
+    <path d="M487 432 C500 424 526 424 538 432" fill="none" stroke="#11140F" stroke-width="13"/>
+    <path d="M364 436 C335 426 320 430 306 438" fill="none" stroke="#11140F" stroke-width="13"/>
+    <path d="M660 436 C689 426 704 430 718 438" fill="none" stroke="#11140F" stroke-width="13"/>
+
+    <!-- eyes -->
+    <circle cx="426" cy="433" r="15" fill="#16120F"/>
+    <circle cx="599" cy="433" r="15" fill="#16120F"/>
+    <circle cx="418" cy="425" r="5" fill="#FFF7EA"/>
+    <circle cx="591" cy="425" r="5" fill="#FFF7EA"/>
+    <path d="M389 397 C409 386 434 384 456 393" fill="none" stroke="#FFF2DE" stroke-width="9" opacity="0.75"/>
+    <path d="M562 397 C582 386 607 384 629 393" fill="none" stroke="#FFF2DE" stroke-width="9" opacity="0.75"/>
+
+    <!-- muzzle -->
+    <ellipse cx="512" cy="506" rx="78" ry="58" fill="#E7AE6F" stroke="#3A2112" stroke-width="14"/>
+    <ellipse cx="512" cy="500" rx="39" ry="24" fill="#593118"/>
+    <path d="M470 560 C494 582 537 582 561 560" fill="none" stroke="#3A2112" stroke-width="12"/>
+
+    <!-- book pages behind cover -->
+    <path d="M310 565 C390 535 455 556 512 625 C569 556 634 535 714 565 L694 637 C625 620 563 647 512 710 C461 647 399 620 330 637 Z" fill="#FFF7E6" stroke="#E7D3A7" stroke-width="10"/>
+    <path d="M330 589 C393 566 453 586 512 653" fill="none" stroke="#EADBBE" stroke-width="8"/>
+    <path d="M694 589 C631 566 571 586 512 653" fill="none" stroke="#EADBBE" stroke-width="8"/>
+
+    <!-- arms/hands -->
+    <ellipse cx="302" cy="665" rx="64" ry="93" fill="#A76531" stroke="#3A2112" stroke-width="18" transform="rotate(-18 302 665)"/>
+    <ellipse cx="722" cy="665" rx="64" ry="93" fill="#A76531" stroke="#3A2112" stroke-width="18" transform="rotate(18 722 665)"/>
+
+    <!-- book -->
+    <path d="M295 560 C382 570 452 610 512 690 L512 820 C445 748 369 713 295 718 Z" fill="url(#book)" stroke="#083943" stroke-width="15"/>
+    <path d="M729 560 C642 570 572 610 512 690 L512 820 C579 748 655 713 729 718 Z" fill="url(#book)" stroke="#083943" stroke-width="15"/>
+    <path d="M512 690 L512 820" fill="none" stroke="#083943" stroke-width="14"/>
+    <path d="M512 690 C496 666 496 634 512 615 C528 634 528 666 512 690 Z" fill="#2A9398" stroke="#083943" stroke-width="10"/>
+
+    <!-- fingers on book -->
+    <path d="M281 624 C300 621 318 626 335 639" fill="none" stroke="#4B2A16" stroke-width="12"/>
+    <path d="M286 666 C306 662 324 668 340 681" fill="none" stroke="#4B2A16" stroke-width="12"/>
+    <path d="M743 624 C724 621 706 626 689 639" fill="none" stroke="#4B2A16" stroke-width="12"/>
+    <path d="M738 666 C718 662 700 668 684 681" fill="none" stroke="#4B2A16" stroke-width="12"/>
+
+    <!-- feet -->
+    <ellipse cx="390" cy="792" rx="67" ry="89" fill="#B36F35" stroke="#3A2112" stroke-width="18"/>
+    <ellipse cx="634" cy="792" rx="67" ry="89" fill="#B36F35" stroke="#3A2112" stroke-width="18"/>
+  </g>
+</svg>
